@@ -50,7 +50,7 @@ button.onclick = function() {
 
 	var output = document.getElementById('output');
 
-	output.innerHTML = message;
+	output.innerHTML = "<div class='animated shake'>" + message + "</div>";
 };
 
 $("#button").click(function() {
