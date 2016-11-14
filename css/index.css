@@ -1,0 +1,82 @@
+
+/******** Layout ********/
+header {
+  padding: 50px;
+  margin: 5px;
+}
+
+h1, h2 {
+  border: solid grey;
+  border-radius: 5%;
+  background: rgba(128, 128, 128, 0.6);
+}
+
+h1 {
+  color: white;
+  font: bolder;
+  margin: 15px 0;
+  font-family: 'Geostar Fill', cursive;
+  font-size: 1.75em;
+}
+
+h2 {
+  color: white;
+  font: bolder;
+  font-size: 1em;
+  font-family: 'Geostar', cursive;
+  font-weight: normal;
+}
+
+body {
+  text-align: center;
+  background-image: url('/cool-background-4.jpg');
+  background-size: fill;
+  background-repeat: no-repeat;
+
+}
+
+#wrapper {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+#calculateWeight  {
+  color: #fff;
+  text-shadow: -2px 2px #346392;
+  background-color: #aaa;
+  box-shadow: inset 0 0 0 1px #27496d;
+  border: none;
+  border-radius: 15px;
+  padding: 1em;
+} 
+
+#calculateWeight:hover {
+    color: black;
+  font-size: 1em;
+  background: lightblue;
+}
+
+#calculateWeight:active {
+  box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+}
+
+p {
+  color: white;
+  font-family: 'Press Start 2P';
+}
+
+
+/******** Media Queries ********/
+
+@media (min-width: 769px) {
+  #wrapper {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
