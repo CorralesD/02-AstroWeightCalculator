@@ -46,8 +46,6 @@ button.onclick = function() {
 
 	var message = 'If you were on ' + planetName + ', you would weigh ' + userWeightOnPlanet + 'lbs.';
 
-	alert(message);
-
 	var output = document.getElementById('output');
 
 	output.innerHTML = "<div class='animated shake'>" + message + "</div>";
