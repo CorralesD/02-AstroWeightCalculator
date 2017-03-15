@@ -28,13 +28,22 @@ body {
   transition: border 0.3s;
 }
 
+div.button {
+  margin: 10px, 5px 10px, 5px;
+}
 
 button {
   background: rgba(128, 128, 128, 0.6);
   text-decoration-style: bold;
   border-radius: 50px 50px;
   padding: 1em;
-  margin: 10px, 5px 10px, 5px;
+  width:120px;
+  height:60px;
+  margin-left:35px;
+  background-color:gray;
+  color:white;
+  border: none;
+  outline:none;
 } 
 
 button:hover {
