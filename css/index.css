@@ -31,6 +31,7 @@ h2 {
 
 body {
   text-align: center;
+  background: linear-gradient(black, white);
   background-image: url('/cool-background-4.jpg');
   background-size: fill;
   background-repeat: no-repeat;
